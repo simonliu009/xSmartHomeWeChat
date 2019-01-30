@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/deviceLight/deviceLight",
+    "pages/deviceSocket/deviceSocket"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智能家居控制开源框架",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,38 @@
+<view class="page">
+
+  <view class='deviceItem'></view>
+  <view class='line'></view>
+  <view class='item-deviceList' bindtap='onClickItem1'>
+    <!--设备图片-->
+    <image src='../../resoures/png/ic_light.png' class='deviceIcon'></image>
+    <!--如果设备在线设备名字颜色蓝色，否则就灰色-->
+    <text class='deviceName'>客厅灯</text>
+    <!--如果设备离线则加载不一样的显示状态-->
+    <text class="deviceStatusLine">在线</text>
+    <!--如果设备离线则不显示箭头-->
+    <image class='deviceInto' />
+  </view>
+  <view class='line'></view>
+
+
+  <view class='line'></view>
+  <view class='item-deviceList' bindtap='onClickItem2'>
+    <!--设备图片-->
+    <image src='../../resoures/png/ic_socket.png' class='deviceIcon'></image>
+    <!--如果设备在线设备名字颜色蓝色，否则就灰色-->
+    <text class='deviceName'>厨房插座</text>
+    <!--如果设备离线则加载不一样的显示状态-->
+    <text class="deviceStatusLine">在线</text>
+    <!--如果设备离线则不显示箭头-->
+    <image class='deviceInto' />
+  </view>
+  <view class='line'></view>
+
+  <view class="weui-footer weui-footer_fixed-bottom">
+    <view class="weui-footer__links">
+      <navigator url="https://github.com/xuhongv" class="weui-footer__link">WeUI+Mqtt+onfire</navigator>
+    </view>
+    <view class="weui-footer__text">Copyright ©半颗心脏 https://github.com/xuhongv</view>
+  </view>
+
+</view>
